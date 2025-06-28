@@ -2,7 +2,10 @@
 
 This is a simple **3-tier architecture application** project designed to demonstrate modern software deployment using **Docker** and optionally on **AWS**.
 
----
+---I recently developed a 3-tier architecture application, where I used Java (Spring Boot) for the backend, designed a modern 3D-style website for the frontend, and deployed everything on AWS.
+
+One unique feature is that I integrated my LinkedIn profile directly into the website, so visitors can instantly view and connect with me.
+
 
 ## 🚀 Project Overview
 
