@@ -32,4 +32,4 @@ It follows the classic 3-tier architecture:
 
 ### Clone the repository
 ```bash
-git clone htt
+git clone https://github.com/shankarlandge/my-3tier-app.git
