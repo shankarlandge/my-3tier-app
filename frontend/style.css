@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #0f0f0f, #1a1a1a);
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.name {
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+}
+
+.card {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid #0ff;
+  border-radius: 15px;
+  background: rgba(0,255,255,0.1);
+  box-shadow: 0 0 20px #0ff;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: rotateY(20deg) rotateX(10deg) scale(1.1);
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  background: #0ff;
+  transform: rotateX(45deg) rotateY(45deg);
+  animation: spin 2s infinite linear;
+  margin: auto;
+}
+
+.card p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
